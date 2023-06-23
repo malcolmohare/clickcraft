@@ -19,4 +19,9 @@ class Item {
   harvest() {
     this.harvest_time_left = this.harvest_time;
   }
+
+  click() {
+    this.harvest();
+    console.log(this.name + " was clicked!");
+  }
 }
